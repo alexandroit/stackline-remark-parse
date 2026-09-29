@@ -4,7 +4,7 @@
     {
       "name": "@stackline/remark-parse",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -27,8 +27,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/remark-parse/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/remark-parse/-/remark-parse-1.0.0.tgz",
       "baselineIntegrity": "sha512-47eblKzq9SH2Nj7tnMWjuvyS0qR3EeVxaJYX/ApKtQn0yszBkXApC28iBjLedEfyshZ0ptOKOCqXfhPldntW6g==",
-      "expectedSha512": "dd6d3b678a368a6c5c65755103081462362443f376332f0b041237519b7ab0d99b2aaceb0f4261d94665e69c67330941727b776d5cf1dc752b3ba2003e009a25",
-      "tag": "docs-stackline-remark-parse-v1.0.1"
+      "expectedSha512": "f1cffe616e99a6f9d1aec4f0d9cc916e41fa052ecb186e4554c211390a6c340297798ffea0a87ca53fb298bd8270f021ed728571fd44b733ab4f92a65f779555",
+      "tag": "docs-stackline-remark-parse-v1.0.2"
     }
   ]
 }
