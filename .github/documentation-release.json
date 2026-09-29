@@ -1,0 +1,34 @@
+{
+  "repository": "alexandroit/stackline-remark-parse",
+  "packages": [
+    {
+      "name": "@stackline/remark-parse",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "remark-parse",
+        "markdown",
+        "typescript",
+        "unified",
+        "remark",
+        "remark-plugin",
+        "plugin",
+        "mdast",
+        "abstract",
+        "syntax",
+        "tree",
+        "ast",
+        "parse",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/remark-parse/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/remark-parse/-/remark-parse-1.0.0.tgz",
+      "baselineIntegrity": "sha512-47eblKzq9SH2Nj7tnMWjuvyS0qR3EeVxaJYX/ApKtQn0yszBkXApC28iBjLedEfyshZ0ptOKOCqXfhPldntW6g==",
+      "expectedSha512": "dd6d3b678a368a6c5c65755103081462362443f376332f0b041237519b7ab0d99b2aaceb0f4261d94665e69c67330941727b776d5cf1dc752b3ba2003e009a25",
+      "tag": "docs-stackline-remark-parse-v1.0.1"
+    }
+  ]
+}
