@@ -24,20 +24,23 @@
     "test:package": "node scripts/test-package.mjs",
     "test:types": "tsc --ignoreConfig --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --strict test/stackline-types.mts"
   },
-  "homepage": "https://github.com/alexandroit/stackline-remark-parse#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/remark-parse/",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "remark-parse",
+    "markdown",
+    "typescript",
     "unified",
     "remark",
     "remark-plugin",
     "plugin",
-    "markdown",
     "mdast",
     "abstract",
     "syntax",
     "tree",
     "ast",
     "parse",
-    "stackline",
     "maintenance-fork"
   ],
   "repository": {
@@ -81,7 +84,7 @@
     "atLeast": 100,
     "ignoreCatch": true
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },

@@ -1,28 +1,52 @@
 # @stackline/remark-parse
 
-Independent maintenance fork of `remark-parse@10.0.2`, preserving its API and published type declarations.
+> remark plugin to add support for parsing markdown input.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/remark-parse.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/remark-parse)
+[![license](https://img.shields.io/npm/l/@stackline/remark-parse.svg?style=flat-square)](https://github.com/alexandroit/stackline-remark-parse)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-remark-parse-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark-parse)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/remark-parse/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/remark-parse/)** | **[npm](https://www.npmjs.com/package/@stackline/remark-parse)** | **[Issues](https://github.com/alexandroit/stackline-remark-parse/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark-parse)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/remark-parse` is the Stackline-maintained distribution of `remark-parse@10.0.2`. It is an independent continuation of [remark-parse](https://github.com/remarkjs/remark); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/remark-parse@1.0.1` |
+| API target | `remark-parse@10.0.2` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/mdast, mdast-util-from-markdown` |
+
+## Installation
+
+```bash
 npm install @stackline/remark-parse
-# Keep existing imports:
-npm install remark-parse@npm:@stackline/remark-parse@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark-parse/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install remark-parse@npm:@stackline/remark-parse
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# remark-parse
+### remark-parse
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 **[remark][]** plugin to add support for parsing markdown input.
 
@@ -90,7 +114,7 @@ This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908
 In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 
 ```sh
-npm install remark-parse
+npm install @stackline/remark-parse
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -113,7 +137,7 @@ Say we have the following module `example.js`:
 
 ```js
 import {unified} from 'unified'
-import remarkParse from 'remark-parse'
+import remarkParse from '@stackline/remark-parse'
 import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
@@ -160,7 +184,7 @@ footnotes, strikethrough, tables, tasklists) and frontmatter (YAML):
 
 ```js
 import {unified} from 'unified'
-import remarkParse from 'remark-parse'
+import remarkParse from '@stackline/remark-parse'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
@@ -198,7 +222,7 @@ The following example turns markdown into man pages by using unified with
 
 ```js
 import {unified} from 'unified'
-import remarkParse from 'remark-parse'
+import remarkParse from '@stackline/remark-parse'
 import remarkMan from 'remark-man'
 
 main()
@@ -273,7 +297,7 @@ abide by its terms.
 
 Support this effort and give back by sponsoring on [OpenCollective][collective]!
 
-<!--lint ignore no-html-->
+
 
 <table>
 <tr valign="middle">
@@ -303,7 +327,7 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 <tr valign="middle">
 <td width="20%" align="center" rowspan="2" colspan="2">
   <a href="https://www.netlify.com">Netlify</a><br><br>
-  <!--OC has a sharper image-->
+  
   <a href="https://www.netlify.com"><img src="https://images.opencollective.com/netlify/4087de2/logo/256.png" width="128"></a>
 </td>
 <td width="10%" align="center">
@@ -343,7 +367,7 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/remarkjs/remark/workflows/main/badge.svg
 
@@ -426,3 +450,27 @@ Support this effort and give back by sponsoring on [OpenCollective][collective]!
 [remark-core]: ../remark/
 
 [plugin]: https://github.com/remarkjs/remark#plugin
+
+## Credits and original authors
+
+- Original project: [remark-parse](https://github.com/remarkjs/remark).
+- Titus Wormer.
+- Eugene Sharygin.
+- Junyoung Choi.
+- Elijah Hamovitz.
+- Ika.
+- Copyright (c) 2014-2020 Titus Wormer <tituswormer@gmail.com>.
+- Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/).
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
