@@ -1,4 +1,0 @@
-{
-  "extends": "../../tsconfig.json",
-  "references": [{"path": "../remark-parse/"}, {"path": "../remark-stringify/"}]
-}

@@ -1,0 +1,23 @@
+{
+  "upstream": "remark-parse",
+  "fork": "@stackline/remark-parse",
+  "repository": "alexandroit/stackline-remark-parse",
+  "upstreamRepository": "remarkjs/remark",
+  "upstreamVersion": "10.0.2",
+  "sourceCommit": "4178acc4c6ef7a1b95533c76dabd3de066c54160",
+  "upstreamIntegrity": "sha512-3ydxgHa/ZQzG8LvC7jTXccARYDcRld3VfcgIIFs7bI6vbRSxJJmzgLEIIoYKyrfhaY+ujuWaf/PJiMZXoiCXgw==",
+  "head": "4178acc4c6ef7a1b95533c76dabd3de066c54160",
+  "status": "source-ready",
+  "files": {
+    "license": "50b4b8729371c8224f2178cb293b438da44763ac98447e2f184231339dc46c78",
+    "index.js": "0c2edd7b321b422f04fbd4f5f8101b937f0fe88051434e69e7da30ef468e2030",
+    "lib/index.js": "47a11f4e41fef6d48ae2f116964fea1516f6852da3b176caff5a0f90301a1666",
+    "package.json": "f431b114ebf6725421ac89e0c4b0f0055420b305d1476e51e6c17ccbb1cd5c4f",
+    "readme.md": "4b073f6aabedc45e71b6a30a1b5db447229ba69a67e5db05c17337fb35902d48",
+    "index.d.ts": "c1b6d322936b18698bf8ea6deed76e28d5a6a3cccb6c7fa345a01c969f637b65",
+    "lib/index.d.ts": "ac72dfd5a793c277251c116b35791d3ce358edfea94b942c270d2bda9be5cbfe"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
