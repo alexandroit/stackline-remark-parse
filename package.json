@@ -94,7 +94,7 @@
     "unified": "^10.0.0",
     "unist-util-remove-position": "^4.0.0",
     "typescript": "7.0.2",
-    "@types/node": "24.12.2"
+    "@types/node": "26.6.6"
   },
   "files": [
     "index.d.ts",
