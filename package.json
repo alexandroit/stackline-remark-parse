@@ -89,7 +89,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "mdast-util-gfm": "^2.0.0",
+    "mdast-util-gfm": "^3.1.0",
     "micromark-extension-gfm": "^2.0.0",
     "unified": "^10.0.0",
     "unist-util-remove-position": "^4.0.0",
